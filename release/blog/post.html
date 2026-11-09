@@ -1,0 +1,110 @@
+<!-- wp:paragraph -->
+<p><em>D-Day was timed by the Moon. So was the opening of El Alamein. I worked out the Moon over 9,877 battles with an exact day and place, from the Roman Empire to the present, to see whether commanders in general fought by moonlight. They mostly did not.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/battle-moons/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24089704">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>The planners of the Normandy landings needed two things from nature in June 1944: a Moon bright enough for the paratroopers to find their drop zones in the night, and a low but rising tide soon after dawn. On 6 June the Moon over Normandy was 99.8% lit, and full that evening. In Egypt twenty months earlier, Montgomery had opened the Second Battle of El Alamein at night under a Moon 99% lit, so that sappers could see to clear the minefields.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stories like these make it sound as if the Moon has always set the calendar of war. But stories pick themselves. So I took every battle in Wikidata with a date to the day and a place on the map, and worked out the Moon over each one: its phase on the day, and whether it was up in the dark hours of the night before, when armies march.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Every phase, almost equally</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The answer is that battles are spread across the lunar month almost exactly as random days would be. Each eighth of the month, from new Moon round to the last crescent, holds between 11.8% and 13.0% of the battles, against 12.5% for random days. Taken together, the eight phases cannot be told apart from chance.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_wheel.png|Circular bar chart of nearly ten thousand battles by the age of the Moon in days, coloured from dark at new Moon to gold at full, lying almost exactly on a dashed red circle for random days|Battles by the age of the Moon on the day, against random days from the same centuries.}}
+
+<!-- wp:paragraph -->
+<p>There is one faint tilt towards the bright half of the month. On the average battle day the Moon was 51.1% lit, against 50.0% for random days, and 10.6% of battles fell within a day and a half of full Moon, against 10.0% expected. That is about 63 extra battles near the full Moon among nearly ten thousand. If it is real, it would take only about 2 battles in every hundred to have been deliberately timed for a full Moon. And it is fragile: count sub-battles fought on the same day only once, or keep only battles with their own map coordinates, and it fades into the noise. I ran several tests on many groups of battles, and one weak result among them is what chance alone would often give.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>The Moon decided a few famous dates. It did not decide the calendar of war.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Not in any age</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Perhaps the Moon mattered more before electric light, or more once aircraft could fly by it? I split the battles into eras: before 1500, the gunpowder centuries, the nineteenth century, the world wars and since 1946. None shows a lunar rhythm. The Second World War comes closest, with 136 of its 930 battles in the full-Moon eighth of the month against about 114 expected, which fits the airborne landings and night attacks of that war, but it is within what chance throws up when you look at enough groups. Naval battles, sieges and raids show nothing either.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_eras.png|Six small bar charts, one for each era and one for all battles, showing battles in each of eight phases of the Moon as a share of the expected number; all bars sit within the shaded band of chance|Battles in each phase of the Moon, as a share of what random days would give, by era.}}
+
+<!-- wp:paragraph -->
+<p>What matters for a night march is not quite the phase but whether the Moon is up in the dark, which depends on the season too. So I traced the Sun and Moon through the night before each battle, every ten minutes, and compared them with random nights at the same place and time of year. The Moon was up for 5.2 of the 10.2 dark hours before the average battle, against 5.1 on random nights: about 6 minutes more. Whether it was still up at dawn, for a dawn attack, makes no difference at all.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_night.png|Bar chart of hours of darkness with the Moon up on the night before battles, by era, against random nights at the same place and season; the pairs of bars are nearly equal|Moonlight on the night before battles, against random nights at the same place and season.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Hastings, Waterloo and the Somme</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Famous battles fell under every kind of Moon. Hastings and Agincourt were fought at last quarter. Waterloo had a waxing gibbous Moon, 89% lit, after a night of heavy rain. Gettysburg began at full Moon, and so did La Noche Triste, when Cortés's men fled Tenochtitlan by night in 1520. The first day of the Somme, Trafalgar and Naseby all fell at new Moon.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_famous.png|Table of 23 famous battles from Halys in 585 BC to D-Day with a drawing of the Moon's phase for each and a bar for the hours of darkness with the Moon up the night before|The Moon over some famous battles.}}
+
+<!-- wp:paragraph -->
+<p>Some of these are a test of the method as well as a story. Livy says the Moon was eclipsed on the night before Pydna in 168 BC, and an eclipse of the Moon can only happen at full Moon: my calculation puts a full Moon over the battlefield. Herodotus says an eclipse of the Sun stopped a battle at the Halys in 585 BC, and a solar eclipse needs a new Moon: that is what comes out. So does a new Moon for Isandlwana in 1879, during which a partial eclipse of the Sun took place, and the Moon about 1.5 days past full for Badr, fought on the 17th day of a lunar month.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The hardest part was the calendar. Wikidata's query service gives dates converted to the modern Gregorian calendar, with a flag saying which calendar they were entered in. But the flags are often wrong. Before 1582 nobody used the Gregorian calendar, yet I found 346 dates flagged as Gregorian whose dates are plainly the familiar Julian ones, like Bosworth on 22 August 1485, so I read them as Julian. Britain kept the old calendar until 1752, and many English Civil War dates are Old Style: Naseby's 14 June 1645 was 24 June in the modern calendar. That matters a great deal here, because ten days move the Moon a third of the way round its cycle. I checked the British cases I could by hand and left the rest out of the test. All 21 famous dates I checked come out right.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_calendar.png|A row of 22 small drawings of the Moon from 10 June to 1 July 1645, with 14 June marked as Wikidata's date read in the modern calendar and 24 June, a new Moon, marked as the real day of Naseby|Why the calendar matters: ten days in June 1645.}}
+
+<!-- wp:paragraph -->
+<p>The Moon comes from astronomy-engine, checked against a second, independent ephemeris. The comparison is not with an even spread but with random days drawn from each battle's own century, two thousand times over, and for moonlight with random nights at the same place and time of year, because battles are fought more in summer, when nights are short. The caveats are real: Wikidata's battles are mostly recent and mostly European, a date is the first day recorded rather than the hour fighting began, and some calendar errors surely remain. But errors like that scatter the Moon at random, so they could hide a weak pattern; they could not hide a strong one. I wrote about these same battles from another angle in <a href="https://maps.tristanhotham.com/every-battle/">Every battle in history</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/battle-moons/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24089704">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/battle-moons">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Battles: <a href="https://www.wikidata.org/">Wikidata</a> (CC0), queried with QLever. Moon and Sun: astronomy-engine (Don Cross), checked against PyEphem. Base map: OpenFreeMap, OpenStreetMap contributors (ODbL).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Methods: J. Meeus, Astronomical Algorithms (1998); E. M. Reingold and N. Dershowitz, Calendrical Calculations (2018); N. I. Fisher, Statistical Analysis of Circular Data (1993). Eclipses: Herodotus, Histories 1.74; Livy 44.37; F. R. Stephenson, Historical Eclipses and Earth's Rotation (1997); F. Espenak and J. Meeus, Five Millennium Canon of Solar Eclipses (NASA, 2006).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
