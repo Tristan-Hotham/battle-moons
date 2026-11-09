@@ -1,0 +1,24 @@
+name,qid,label,date,date_julian,rule,phase_ae,phase_ephem,illum_ae,illum_ephem,days_from_full_ae,days_from_full_ephem,phase_name,moon_dark_h,dark_h,moon_up_at_sunrise,record,lon,lat
+"Halys, 585 BC",Q30648004,Battle of Halys,22 May 585 BC (Gregorian),28 May 585 BC (Julian),ancient,357.5,357.2,0.0,0.012,14.81,14.78,New moon,0.0,8.2,True,"Herodotus: a total eclipse of the Sun stopped the battle (28 May 585 BC, Julian), so a new Moon",37.18189,40.79372
+"Gaugamela, 331 BC",Q179670,Battle of Gaugamela,26 September 331 BC (Gregorian),1 October 331 BC (Julian),ancient,312.1,311.9,0.166,0.213,10.64,10.62,Waning crescent,3.7,11.0,True,"a lunar eclipse eleven days before (20 September 331 BC, Julian)",43.25,36.36
+"Pydna, 168 BC",Q504739,Battle of Pydna,19 June 168 BC (Gregorian),22 June 168 BC (Julian),ancient,187.6,187.4,0.996,1.0,0.68,0.67,Full moon,7.7,7.7,True,"Livy: a lunar eclipse the night before (21 June 168 BC, Julian), so a full Moon",22.47356,40.25103
+"Badr, 624",Q486124,Battle of Badr,15 March 624 (Gregorian),12 March 624 (Julian),julian,199.2,199.2,0.97,0.982,1.5,1.5,Full moon,11.0,11.2,True,"17 Ramadan in the Islamic lunar calendar, whose months begin at the new crescent",38.76667,23.73333
+"Hastings, 1066",Q83224,Battle of Hastings,20 October 1066 (Gregorian),14 October 1066 (Julian),julian,272.5,272.4,0.48,0.5,8.28,8.27,Last quarter,7.7,12.3,True,,0.48778,50.91445
+"Crécy, 1346",Q27759,Battle of Crécy,3 September 1346 (Gregorian),26 August 1346 (Julian),julian,112.3,112.2,0.69,0.678,-6.21,-6.21,First quarter,4.0,9.2,False,,1.88778,50.25639
+"Kosovo, 1389",Q179288,Battle of Kosovo,23 June 1389 (Gregorian),15 June 1389 (Julian),date_override,247.3,247.3,0.693,0.707,6.01,6.01,Waning gibbous,4.5,7.5,True,,21.12,42.63
+"Agincourt, 1415",Q188495,Battle of Agincourt,3 November 1415 (Gregorian),25 October 1415 (Julian),julian,275.5,275.5,0.454,0.469,7.08,7.08,Last quarter,7.5,13.0,True,,2.14139,50.46333
+"Bosworth, 1485",Q222013,Battle of Bosworth Field,31 August 1485 (Gregorian),22 August 1485 (Julian),reflagged,135.9,135.9,0.859,0.85,-3.4,-3.4,Waxing gibbous,4.3,8.8,False,,-1.41028,52.59111
+"La Noche Triste, 1520",Q1308854,La Noche Triste,10 July 1520 (Gregorian),30 June 1520 (Julian),julian,179.9,179.9,0.998,0.998,-0.01,-0.01,Full moon,9.0,9.0,False,,-109.23457,30.66411
+"Lepanto, 1571",Q165425,Battle of Lepanto,17 October 1571 (Gregorian),7 October 1571 (Julian),julian,230.5,230.5,0.818,0.825,4.16,4.16,Waning gibbous,10.0,11.8,True,,21.3,38.2
+"Naseby, 1645",Q949724,Battle of Naseby,24 June 1645 (Gregorian),14 June 1645 (Julian),os_override,10.4,10.4,0.009,0.007,-14.51,-14.51,New moon,0.0,5.3,False,,-0.99529,52.41561
+"Culloden, 1746",Q651919,Battle of Culloden,27 April 1746 (Gregorian),16 April 1746 (Julian),os_checked,75.1,75.1,0.373,0.366,-7.87,-7.87,First quarter,6.0,7.0,False,,-4.0925,57.47722
+"Trafalgar, 1805",Q171416,Battle of Trafalgar,21 October 1805 (Gregorian),,gregorian,347.4,347.4,0.014,0.015,12.93,12.93,New moon,0.7,12.0,True,,-6.2,36.25
+"Waterloo, 1815",Q48314,Battle of Waterloo,18 June 1815 (Gregorian),,gregorian,142.0,142.0,0.894,0.891,-3.26,-3.26,Waxing gibbous,5.0,5.8,False,,4.41222,50.67806
+"Gettysburg, 1863",Q33132,Battle of Gettysburg,1 July 1863 (Gregorian),,gregorian,186.2,186.2,0.996,0.997,0.43,0.43,Full moon,7.8,7.8,True,,-77.22583,39.81139
+"Isandlwana, 1879",Q747589,Battle of Isandlwana,22 January 1879 (Gregorian),,gregorian,359.0,359.0,0.0,0.0,13.92,13.92,New moon,0.0,9.5,True,"a partial eclipse of the Sun took place during the battle, so a new Moon",30.6525,-28.35639
+"The Somme, 1916",Q132568,Battle of the Somme,1 July 1916 (Gregorian),,gregorian,11.3,11.3,0.01,0.01,-13.7,-13.7,New moon,0.0,6.0,False,,2.6975,50.01556
+"Battle of Britain, 1940",Q154720,Battle of Britain,10 July 1940 (Gregorian),,gregorian,66.6,66.6,0.303,0.301,-8.91,-8.91,Waxing crescent,0.8,5.3,False,,-2.0,54.0
+"Pearl Harbor, 1941",Q52418,Attack on Pearl Harbor,7 December 1941 (Gregorian),,gregorian,225.0,225.0,0.854,0.854,4.07,4.07,Waning gibbous,9.8,12.2,True,,-157.95,21.365
+"Stalingrad, 1942",Q38789,Battle of Stalingrad,23 August 1942 (Gregorian),,gregorian,142.4,142.4,0.896,0.895,-2.78,-2.78,Waxing gibbous,5.8,8.7,False,,44.5325,48.715
+"Second El Alamein, 1942",Q153376,Second Battle of El Alamein,23 October 1942 (Gregorian),,gregorian,171.1,171.1,0.993,0.993,-0.75,-0.75,Full moon,11.5,12.0,False,the night attack opened under a Moon just short of full,28.94306,30.84139
+"D-Day, 1944",Q16470,Normandy landings,6 June 1944 (Gregorian),,gregorian,176.4,176.4,0.998,0.998,-0.29,-0.29,Full moon,6.3,6.3,True,"the date was set for a bright Moon near full, for the airborne drops, and a low but rising tide soon after dawn",-0.6,49.34

@@ -1,0 +1,22 @@
+label,qid,standard_date,gregorian,pipeline,flag,rule,agrees
+Battle of Hastings,Q83224,14 October 1066 (Julian),20 October 1066,20 October 1066,J,julian,True
+Battle of Agincourt,Q188495,25 October 1415 (Julian),3 November 1415,3 November 1415,J,julian,True
+Battle of Crécy,Q27759,26 August 1346 (Julian),3 September 1346,3 September 1346,J,julian,True
+Battle of Bosworth Field,Q222013,22 August 1485 (Julian),31 August 1485,31 August 1485,G,reflagged,True
+Battle of Towton,Q634629,29 March 1461 (Julian),7 April 1461,7 April 1461,G,reflagged,True
+Battle of Stamford Bridge,Q203225,25 September 1066 (Julian),1 October 1066,1 October 1066,G,reflagged,True
+Battle of Bannockburn,Q222520,24 June 1314 (Julian),2 July 1314,1 July 1314,J,julian,True
+Battle of Lepanto,Q165425,7 October 1571 (Julian),17 October 1571,17 October 1571,J,julian,True
+Battle of Naseby,Q949724,14 June 1645 (Julian),24 June 1645,24 June 1645,G,os_override,True
+Battle of Marston Moor,Q326417,2 July 1644 (Julian),12 July 1644,12 July 1644,G,os_override,True
+Battle of Edgehill,Q1478525,23 October 1642 (Julian),2 November 1642,2 November 1642,J,julian,True
+Battle of the Boyne,Q644960,1 July 1690 (Julian),11 July 1690,11 July 1690,J,julian,True
+Battle of Culloden,Q651919,16 April 1746 (Julian),27 April 1746,27 April 1746,G,os_checked,True
+Battle of Poltava,Q152486,27 June 1709 (Julian),8 July 1709,8 July 1709,J,julian,True
+Battle of Blenheim,Q154635,13 August 1704 (Gregorian),13 August 1704,13 August 1704,G,gregorian,True
+Battle of Waterloo,Q48314,18 June 1815 (Gregorian),18 June 1815,18 June 1815,G,gregorian,True
+Battle of Borodino,Q184320,7 September 1812 (Gregorian),7 September 1812,7 September 1812,G,gregorian,True
+Battle of Gettysburg,Q33132,1 July 1863 (Gregorian),1 July 1863,1 July 1863,G,gregorian,True
+Battle of the Somme,Q132568,1 July 1916 (Gregorian),1 July 1916,1 July 1916,G,gregorian,True
+Battle of Pydna,Q504739,22 June 168 BC (Julian),19 June 168 BC,19 June 168 BC,J,ancient,True
+Battle of Halys,Q30648004,28 May 585 BC (Julian),22 May 585 BC,22 May 585 BC,J,ancient,True

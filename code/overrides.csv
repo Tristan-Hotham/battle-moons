@@ -1,0 +1,34 @@
+qid,label,action,note
+Q949724,Battle of Naseby,os,14 June 1645 is the Old Style date (24 June New Style)
+Q326417,Battle of Marston Moor,os,2 July 1644 Old Style
+Q2605977,Battle of Dunbar (1650),os,3 September 1650 Old Style
+Q1116626,Battle of Worcester,os,3 September 1651 Old Style
+Q2888946,Battle of Killiecrankie,os,27 July 1689 Old Style
+Q2744242,Battle of Sheriffmuir,os,13 November 1715 Old Style
+Q546317,Battle of Prestonpans,os,21 September 1745 Old Style
+Q510943,Battle of Preston (1648),os,17 August 1648 Old Style
+Q3636587,Battle of Preston (1715),os,9 to 14 November 1715 Old Style
+Q1406897,Battle of Roundway Down,os,13 July 1643 Old Style
+Q2475657,Battle of Adwalton Moor,os,30 June 1643 Old Style
+Q1406921,Battle of Lansdowne,os,5 July 1643 Old Style
+Q2237461,Battle of Cropredy Bridge,os,29 June 1644 Old Style
+Q2031282,Second Battle of Newbury,os,27 October 1644 Old Style
+Q689433,Battle of Langport,os,10 July 1645 Old Style
+Q4872207,Battle of Rowton Heath,os,24 September 1645 Old Style
+Q2888187,Battle of Bothwell Bridge,os,22 June 1679 Old Style
+Q4870928,Battle of Drumclog,os,1 June 1679 Old Style
+Q4872215,Battle of Rullion Green,os,28 November 1666 Old Style
+Q2485365,Battle of Glen Shiel,os,10 June 1719 Old Style
+Q4087434,Battle of Kilsyth,os,15 August 1645 Old Style
+Q4087476,Battle of Philiphaugh,os,13 September 1645 Old Style
+Q4087424,Battle of Inverlochy (1645),os,2 February 1645 Old Style
+Q4087452,Battle of Auldearn,os,9 May 1645 Old Style
+Q4087408,Battle of Alford,os,2 July 1645 Old Style
+Q4087469,Battle of Tippermuir,os,1 September 1644 Old Style
+Q522168,Battle of Benburb,os,5 June 1646 Old Style
+Q1461766,Battle of Rathmines,os,2 August 1649 Old Style
+Q651919,Battle of Culloden,ok,27 April 1746 New Style = 16 April Old Style: correctly converted
+Q1417580,Battle of Falkirk Muir,ok,28 January 1746 New Style = 17 January Old Style: correctly converted
+Q2887916,Battle of Aughrim,ok,22 July 1691 New Style = 12 July Old Style: correctly converted
+Q644960,Battle of the Boyne,ok,11 July 1690 New Style = 1 July Old Style: correctly converted
+Q179288,Battle of Kosovo,jul:1389-06-15,"15 June 1389 Julian (St Vitus' Day); Wikidata's 6 July = 28 June (the modern Gregorian Vidovdan) converted a second time"
